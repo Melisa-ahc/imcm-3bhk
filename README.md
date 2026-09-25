@@ -34,6 +34,6 @@ Die Abbildung zeigt die Funktionsweise von statischen Websites. Zuerst muss der 
 
 Ab den 2000er Jahren setzten sich zunehmend dynamische Websiten durch. Bei dynamischen Websites werden die Inhalte nicht mehr als fertige "html-Files" auf den Webserver hochgeladen, sondern in einer Datenbank gespeichert und bei Bedarf dynamisch generiert.Dies ermöglicht personalisierte Inhalte und Interaktionen mit Datenbanken.ss
 
-![Funktionsweise von dynamischen Websites](image_dynamic.png)
+![Funktionsweise von dynamischen Websites](image-1.png)
 
 Der Ablauf der Seitenerstellung ist in der folgenden Grafik dargestellt. Die URL- Auflösung mittels DNS-Anfrage funktioniert gleich wie bei statischen Websites. Der Webserver braucht bei dynamischen Websites aber unterstützung durch eine serverseitige Programmier- bzw. Skriptsprache (z.B. PHP, Python, Javascript, usw.). Wenn der Webbrowser bzw. Webclient bei einem Restaurantbesuch als Gast gesehen wird, dann ist der Webserver der kellner, der die Bestellung aufnimmt und sie an den Koch weitergibt. Die Köchin ist dann in diesem Fall die serverseitige Programmiersprache. Sie greift daraufhin auf die Zutaten in der Voratskammer (Datenbank) und bereitet das gericht nach einem rezept (HTML- Template bzw. Vorlage) zu. Das fertige Gericht wird schließlich wieder vom Kellner (Webserver) an den Gast (Webbrowser) serviert.
